@@ -8,7 +8,7 @@ module.exports = function Home({ title, die, roll }) {
         <h1>Simplest Possible AJAX</h1>
         <p>This contrived app will simulate a roll of a n-sided die.</p>
 
-        <form method="post" action="/rolls">
+        <form id="form" method="post" action="/rolls">
           <p>
             <label htmlFor="sides">
               How many sides?
